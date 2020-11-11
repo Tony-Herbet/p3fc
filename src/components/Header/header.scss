@@ -1,0 +1,37 @@
+@import 'src/styles/vars';
+
+.header {
+  align-self: center;
+  display: flex;
+  font-family: sans-serif;
+  justify-content: space-between;
+  min-width: 290px;
+
+  .button-header {
+    cursor: pointer;
+    background-color: $grey;
+    color: $text;
+    border: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 45px;
+    width: 90px;
+
+    .open {
+      display: inline-block;
+      transform: rotate(90deg);
+    }
+  }
+
+  .header-title {
+    font-weight: bold;
+    align-self: center;
+  }
+}
+
+
+@media (min-width: 1150px) {
+  .header {
+    width: 900px;
+  }
+}

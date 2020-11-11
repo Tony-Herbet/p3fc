@@ -1,0 +1,54 @@
+@import 'src/styles/vars';
+
+.modes-container {
+  position: absolute;
+  z-index: 1;
+  width: 290px;
+  background-color: $grey;
+  margin-top: 0.5em;
+  padding-bottom: 30px;
+
+  .mode-selected {
+    text-align: center;
+    margin-top: 1.5em;
+  }
+
+  .modes-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .mode {
+      margin: 20px 0;
+      display: flex;
+
+      .modes-button {
+        cursor: pointer;
+        height: 45px;
+        min-width: 90px;
+        border: none;
+        align-self: center;
+      }
+    }
+
+    .mode-infos {
+      padding-left: 15px;
+      align-self: center;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .modes-container {
+    width: 500px;
+    padding-bottom: 0;
+    height: 425px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .modes-container {
+    width: 290px;
+    right: 0;
+  }
+}

@@ -1,0 +1,45 @@
+@import 'src/styles/vars';
+
+.rules-container {
+  position: absolute;
+  z-index: 1;
+  width: 290px;
+  background-color: $grey;
+  margin-top: 0.5em;
+  padding-bottom: 30px;
+  
+  p {
+    margin-bottom: 2em;
+    span {
+      font-style: italic;
+      font-weight: bold;
+    }
+  }
+
+  li {
+    margin-bottom: 0.5em;
+
+    .won {
+      font-weight: bold;
+      color: $green;
+    }
+
+    .lost {
+      color: $opal;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .rules-container {
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .rules-container {
+    width: 290px;
+    left: 0;
+  }
+}
