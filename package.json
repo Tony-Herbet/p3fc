@@ -1,11 +1,11 @@
 {
-  "homepage": "http://Tony-Herbet.github.io/p3fc",
+  "homepage": "https://tony-herbet.github.io/p3fc/",
   "name": "p3fc",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint src/**/*.js",
     "lint:fix": "eslint --fix src/**/*.js",
     "clean": "rm -rf dist",
