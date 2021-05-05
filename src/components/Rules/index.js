@@ -13,8 +13,8 @@ const Rules = () => (
       la version préférée des Fabiocultistes du Pierre Feuille Ciseaux.
     </p>
     <p>
-      Le jeu se joue comme un Pierre Feuille Ciseaux classique
-      sauf qu'il y a cinq choix possible qui s'articulent de cette façon:
+      Le jeu se joue comme un Pierre Feuille Ciseaux classique,
+      sauf qu'il y a cinq choix possibles qui s'articulent de cette façon:
     </p>
     <ul>
       <li>
